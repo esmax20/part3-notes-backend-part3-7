@@ -25,13 +25,9 @@ module.exports = {
     ],
     'extends': 'eslint:recommended',
     'rules': {
-        '@stylistic/js/indent': [
-            'error',
-            2
-        ],
         '@stylistic/js/linebreak-style': [
             'error',
-            'unix'
+            'windows'
         ],
         '@stylistic/js/quotes': [
             'error',
